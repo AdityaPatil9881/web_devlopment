@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(113, 54, 196);
+    overflow: hidden;
+
+}
+.nav{
+    padding: 10px;
+    background-color: rgb(113, 54, 196);
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+     z-index: 10;
+     position: relative;
+ 
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+.home{
+      font-size: 15px;
+        font-family: sans-serif;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7C2AE6;
+        height: 1em;
+        width: 7em;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px 2px #000000;
+        transition-duration: 1s;
+}
+.home:hover{
+      color: rgb(5, 5, 5);
+        color: white;
+        box-shadow: 0px 0px 15px 2px #000000;
+        font-size: 17px;
+        border: 3px solid white;
+}
+.ser{
+      font-size: 15px;
+        font-family: sans-serif;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7C2AE6;
+        height: 1em;
+        width: 7em;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px 2px #000000;
+         transition-duration: 1s;
+}
+.ser:hover{
+      color: rgb(5, 5, 5);
+      color: white;
+      font-size: 17px;
+        box-shadow: 0px 0px 15px 2px #000000;
+        border: 3px solid white;
+}
+.cont{
+      font-size: 15px;
+        font-family: sans-serif;
+        border: 1px solid black;
+         transition-duration: 1s;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7C2AE6;
+        height: 1em;
+        width: 7em;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px 2px #000000;
+}
+.cont:hover{
+      color: rgb(5, 5, 5);
+         color: white;
+      font-size: 17px;
+        box-shadow: 0px 0px 15px 2px #000000;
+        border: 3px solid white;
+}
+.about{
+      font-size: 15px;
+        font-family: sans-serif;
+        border: 1px solid rgb(0, 0, 0);
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7C2AE6;
+        height: 1em;
+        width: 7em;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px 2px #000000;
+         transition-duration: 1s;
+}
+.about:hover{
+      color: rgb(5, 5, 5);
+         color: white;
+      font-size: 17px;
+        box-shadow: 0px 0px 15px 2px #000000;
+        border: 3px solid white;
+}
+.yo{
+    height: 60px;
+    margin-right: 20px;
+   box-shadow: 0px 0px 15px 2px black;
+   border-radius: 50px;
+    transition-duration: 1s;
+}
+.yo:hover{
+    color: rgb(5, 5, 5);
+        background-color: aliceblue;
+        box-shadow: 0px 0px 15px 2px #7C2AE6;;
+        height: 65px;
+}
+.port{
+    margin-right: auto;
+   color: rgb(255, 255, 255);
+   -webkit-text-stroke: 0.1px black;
+   height: 100px;
+   margin-top:15px;
+   
+    font-family: sans-serif;
+}
+.circle{
+    background-color:#be68ff;
+    border-radius: 50%;
+    height: 750px;
+    width: 750px;
+    margin-left: 725px;
+    margin-top: 125px;
+    box-shadow: 0px 0px 100px 2px #000000;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+}
+.he{
+    margin-top: 100px;
+    padding: 0;
+    height: 100px;
+    overflow: hidden;
+    height: 800px;
+    width: 650px;
+}
+.png{
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    margin-right: 110px;
+    overflow: hidden;
+
+
+
+
+
+}
+.hello{
+    color: white;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 25px;
+  margin-top: 75px;
+  overflow: hidden;
+
+  
+  
+  
+}
+.im{
+    color: white;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 100px;
+  overflow: hidden;
+  display: inline;
+ 
+
+
+}
+.adi{
+    text-align: left;
+    position: absolute;
+    margin-top: 500px;
+    margin-right: 1000px;
+
+}
+.imm{
+        color:#ffde59;
+  font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 100px;
+  overflow: hidden;
+  display: inline;
+  font-family: "Anton", sans-serif;
+}
+.pat{
+           color:#ffde59;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 20px;
+  margin-top: 5px;
+  font-size: 100px;
+  overflow: hidden;
+}
+.thumb{
+      color: white;
+        font-family: "Anton", sans-serif;
+      margin-left: 25px;
+    font-family: etna, sans-serif;
+    margin-top: 10px;
+}
+.my{
+       font-size: 25px;
+       font-family: "Anton", sans-serif;
+        border: 1px solid black;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 50px;
+        background-color: #7C2AE6;
+        height: 1em;
+        width: 7em;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: #ffffff;
+        box-shadow: 0px 0px 15px 2px #000000;
+        transition-duration: 1s;
+        position: absolute;
+        margin-top: 950px;
+        margin-right: 1270px;
+        font-weight: 20px;
+        transition: transform 1s ease;
+        
+    }
+    .my:hover{
+    transform: translateX(10px);
+     color: white;
+        box-shadow: 0px 0px 15px 2px #000000;
+        font-size: 25px;
+        border: 2px solid white
+        
+}
+
+</style>
+<link rel="stylesheet" href="hehe.css">
+<div class="png">
+    <img class="he" src="yoyo.png">
+</div>
+<body>
+    <div class="nav">
+        <img class="port" src="pot2.png">
+        <ul>    
+            <li><a class="home" href="#">Home</a></li>
+            <li><a class="ser"href="#">Services</a></li>
+            <li><a class="cont"href="#">Contact</a></li>
+            <li><a class="about"href="#">About</a></li>
+        </ul>
+        <a href="#">
+            <img class="yo" src="yo.png">
+        </a>
+        <div class="adi">
+        <h4 class="hello">HELLO!</h4>
+        <h1 class="im">I'm</h1>
+        <h1 class="imm">Aditya</h1>
+        <h1 class="pat">Patil</h1>
+        <h2 class="thumb">THUMBNAIL DESIGNER</h2>
+    </div>
+    <a class="my" href="#">MY WORKS</a>
+    </div>
+    <div class="circle">
+    </div>
+</body>
+</html>
